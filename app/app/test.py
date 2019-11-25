@@ -3,6 +3,7 @@ from app.calc import add
 from app.calc import sub
 
 class CalcTests(TestCase):
+    
     def test_add_numbers(self):
         self.assertEqual(add(3, 5), 8)
 
